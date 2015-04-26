@@ -7,3 +7,4 @@ This repository contains Hello world dockerfile examples. It is mainly for the e
 1. Copy the `Dockerfile` in the current directory
 1. Run `docker build -t hello-world .` This will create the docker image which can be verified by running `docker images`. This command will list all the images present on the host. You will notice `hello-world` image in the list.
 1. To run the image just execute `docker run hello-world` and walah it will print `hello-world` on the console.
+1. If you want to delete file then run `docker rmi <image-id>`. You can find the image id by executing `docker images` command.
